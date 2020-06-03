@@ -1,0 +1,1 @@
+<h1>Django-Channels Chat app</h1>
