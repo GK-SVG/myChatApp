@@ -20,4 +20,5 @@ from .import views
 
 urlpatterns = [  
     path('',views.index,name="Index"),
+    path('<str:room_name>/', views.room, name='room'),
 ]
